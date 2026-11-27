@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "@tailwindcss/cli": "^4.3.5",
+    "tailwindcss": "^4.3.5"
+  },
+  "name": "zuruchi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "build": "tailwindcss -i ./assets/css/style.css -o ./assets/css/output.css --minify",
+    "dev": "tailwindcss -i ./assets/css/style.css -o ./assets/css/output.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
